@@ -479,6 +479,39 @@ a.footerIcon:hover {
   }
 }
 
+/* Change background media query  started*/
+@media screen and (max-height: 650px) {
+  .input-group.input-group-sm.mb-3 {
+    top: 36rem;
+    right: 2rem;
+  }
+}
+
+@media screen and (max-height: 600px) {
+  .input-group.input-group-sm.mb-3 {
+    top: 32rem;
+  }
+}
+
+@media screen and (max-height: 540px) {
+  .input-group.input-group-sm.mb-3 {
+    top: 28rem;
+  }
+}
+
+@media screen and (max-height: 490px) {
+  .input-group.input-group-sm.mb-3 {
+    top: 25rem;
+  }
+}
+
+@media screen and (max-height: 350px) {
+  .input-group.input-group-sm.mb-3 {
+    top: 18rem;
+  }
+}
+
+/* Ended */
 @media (max-width:500px) {
   .footer-menu ul {
     display: flex;
